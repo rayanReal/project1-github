@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="Cecs475.BoardGames.Chess.Test.KingTests.KingValidation" /><Add Test="Cecs475.BoardGames.Chess.Test.KingTests.CheckKingMoves" /><Add Test="Cecs475.BoardGames.Chess.Test.KingTests.KingMovesLimited" /><Add Test="Cecs475.BoardGames.Chess.Test.KingTests.kingsPossibleMove" /></Playlist>

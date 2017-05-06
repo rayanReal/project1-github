@@ -1,0 +1,3 @@
+notify:
+  webhooks:
+    - url: https://frozen-savannah-63080.herokuapp.com/circle

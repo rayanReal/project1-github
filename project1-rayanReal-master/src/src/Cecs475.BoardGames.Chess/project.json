@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Cecs475.BoardGames": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
+    },
+    "net46": {
+      "buildOptions": {
+        "define": [ "NET46" ]
+      },
+      "frameworkAssemblies": {
+        "System.Linq": "4.0.0.0",
+        "System.Data.Entity": "4.0.0.0"
+      }
+
+    }
+  }
+}

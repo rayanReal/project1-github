@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+=======
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+>>>>>>> 34f886822e3755d035be3b99010268fe8fa98d78
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BEAE2561-6B45-4E33-A34B-6A37663C5C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{981F2660-088D-45A5-9921-D0F6CA512484}"
+<<<<<<< HEAD
+	ProjectSection(SolutionItems) = preProject
+		src\Cecs475.BoardGames\Cecs475.BoardGames.xproj = src\Cecs475.BoardGames\Cecs475.BoardGames.xproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D82543F-B5DE-42DE-9048-FE7BFDE1E17A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cecs475.BoardGames", "src\Cecs475.BoardGames\Cecs475.BoardGames.csproj", "{B7976D9B-8C23-4239-8E4A-0DF6BD1AB9CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cecs475.BoardGames.Chess", "src\Cecs475.BoardGames.Chess\Cecs475.BoardGames.Chess.csproj", "{31003E33-529F-476A-94D1-F7D9DF90B751}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cecs475.BoardGames.Chess.Test", "test\Cecs475.BoardGames.Chess.Test\Cecs475.BoardGames.Chess.Test.csproj", "{BBA20252-0205-407D-9860-D966B8922282}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cecs475.BoardGames.Application", "src\Cecs475.BoardGames.Application\Cecs475.BoardGames.Application.csproj", "{EEF600F6-58EB-44C9-A2D8-46CA79F6C894}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cecs475.BoardGames.Othello", "src\Cecs475.BoardGames.Othello\Cecs475.BoardGames.Othello.csproj", "{95053192-B91F-4655-8AE4-B6A449879000}"
+=======
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cecs475.BoardGames", "src\Cecs475.BoardGames\Cecs475.BoardGames.xproj", "{B7976D9B-8C23-4239-8E4A-0DF6BD1AB9CA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cecs475.BoardGames.Chess.Core", "src\Cecs475.BoardGames.Chess\Cecs475.BoardGames.Chess.Core.xproj", "{31003E33-529F-476A-94D1-F7D9DF90B751}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cecs475.BoardGames.Chess.Test", "test\Cecs475.BoardGames.Chess.Test\Cecs475.BoardGames.Chess.Test.xproj", "{BBA20252-0205-407D-9860-D966B8922282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D82543F-B5DE-42DE-9048-FE7BFDE1E17A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cecs475.BoardGames.Application", "src\Cecs475.BoardGames.Application\Cecs475.BoardGames.Application.xproj", "{EEF600F6-58EB-44C9-A2D8-46CA79F6C894}"
+>>>>>>> 34f886822e3755d035be3b99010268fe8fa98d78
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7976D9B-8C23-4239-8E4A-0DF6BD1AB9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7976D9B-8C23-4239-8E4A-0DF6BD1AB9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7976D9B-8C23-4239-8E4A-0DF6BD1AB9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7976D9B-8C23-4239-8E4A-0DF6BD1AB9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31003E33-529F-476A-94D1-F7D9DF90B751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31003E33-529F-476A-94D1-F7D9DF90B751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31003E33-529F-476A-94D1-F7D9DF90B751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31003E33-529F-476A-94D1-F7D9DF90B751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA20252-0205-407D-9860-D966B8922282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA20252-0205-407D-9860-D966B8922282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA20252-0205-407D-9860-D966B8922282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA20252-0205-407D-9860-D966B8922282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF600F6-58EB-44C9-A2D8-46CA79F6C894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF600F6-58EB-44C9-A2D8-46CA79F6C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF600F6-58EB-44C9-A2D8-46CA79F6C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF600F6-58EB-44C9-A2D8-46CA79F6C894}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{95053192-B91F-4655-8AE4-B6A449879000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95053192-B91F-4655-8AE4-B6A449879000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95053192-B91F-4655-8AE4-B6A449879000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95053192-B91F-4655-8AE4-B6A449879000}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 34f886822e3755d035be3b99010268fe8fa98d78
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7976D9B-8C23-4239-8E4A-0DF6BD1AB9CA} = {BEAE2561-6B45-4E33-A34B-6A37663C5C7D}
+		{31003E33-529F-476A-94D1-F7D9DF90B751} = {BEAE2561-6B45-4E33-A34B-6A37663C5C7D}
+		{BBA20252-0205-407D-9860-D966B8922282} = {981F2660-088D-45A5-9921-D0F6CA512484}
+		{EEF600F6-58EB-44C9-A2D8-46CA79F6C894} = {BEAE2561-6B45-4E33-A34B-6A37663C5C7D}
+<<<<<<< HEAD
+		{95053192-B91F-4655-8AE4-B6A449879000} = {BEAE2561-6B45-4E33-A34B-6A37663C5C7D}
+=======
+>>>>>>> 34f886822e3755d035be3b99010268fe8fa98d78
+	EndGlobalSection
+EndGlobal
